@@ -1,0 +1,25 @@
+{
+    "name": "maia/laravel-database-logger",
+    "description": "Monolog handler for database driver",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maia\\LaravelDatabaseLogger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "João Vitor Maia",
+            "email": "maia.tostring@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maia\\LaravelDatabaseLogger\\DatabaseLoggerServiceProvider"
+            ]
+        }
+    }
+}
