@@ -3,6 +3,7 @@
 namespace Maia\LaravelDatabaseLogger;
 
 use Monolog\Logger;
+use Maia\LaravelDatabaseLogger\DatabaseHandler;
 
 class DatabaseLogger
 {
